@@ -7,7 +7,7 @@ exports.handler = function(event, context, callback) {
 //  console.log('payload==>'+payload);
 //  console.log('payload[0]==>'+payload[0]);
 
-    fs.writeFileSync(path.resolve(__dirname, './comments.json'), JSON.stringify(payload))
+    fs.writeFileSync(path.resolve(__dirname, '../comments.json'), JSON.stringify(payload))
 
 
 };
