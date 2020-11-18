@@ -1,3 +1,5 @@
 exports.handler = function(event, context, callback) {
-  console.log('th2is is fxxin test.');
+  console.log('event.body==>'+event.body);
+  var body = event.body.split("payload=")[1];
+  console.log('body ==>'+body);
 };
