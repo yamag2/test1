@@ -1,6 +1,7 @@
 <template>
 <form name="contact" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact" />
+  <input type="hidden" name="articleno" value="134" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
