@@ -1,14 +1,19 @@
 <template>
-<div id="app">
-  {{ message }}
-</div>
+  <div>
+    <input type="text" v-model="message">
+    <p>
+      {{message}}
+    </p>
+  </div>
+</template>
 
 <script>
-var app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue!'
-  }
-})
+export default {
+  name: 'MyComponent',
+  data() {
+    return {
+      message: 'MyComponent!!'
+    }
+  },
+}
 </script>
-</template>
