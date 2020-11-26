@@ -1,19 +1,17 @@
 <template>
-  <div id="app">
-    <h1>Hello World</h1>
-    <button v-on:click="showEl">show el</button>
+  <div>
+    <input type="text" v-model="message">
+    <p>
+      {{message}}
+    </p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'MyComponent',
-  data: {
+  mounted() {
+      alert('MyComponent!!');
   },
-  methods:{
-    mounted: function(){
-      alert('this.$el');
-    },
-  }
 }
 </script>
