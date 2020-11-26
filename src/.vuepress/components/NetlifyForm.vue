@@ -19,8 +19,6 @@ var app5 = new Vue({
   <button v-on:click="reverseMessage">Reverse Message</button>
 </div>
 
-</form>
-
 
 <form name="contact" method="POST" data-netlify="true">
   <input type="hidden" name="form-name" value="contact" />
@@ -43,4 +41,6 @@ var app5 = new Vue({
   <p>
     <button type="submit">Send</button>
   </p>
+</form>
+
 </template>
