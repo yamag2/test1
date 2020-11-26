@@ -1,6 +1,5 @@
 <template>
   <div>
-    <input type="text" v-model="message">
     <p>
       {{message}}
     </p>
@@ -9,11 +8,16 @@
 
 <script>
 export default {
-  name: 'MyComponent',
-  data() {
-    return {
-      message: 'MyComponent!!'
-    }
-  },
+	name: 'MyComponent',
+	data() {
+		return {
+		  message: 'MyComponent!!'
+		}
+	},
+	methods: {
+	  window:onload = function() {  
+	   alert('koko');
+	  },
+	}
 }
 </script>
