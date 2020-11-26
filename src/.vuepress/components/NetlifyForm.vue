@@ -1,12 +1,5 @@
 <template>
-
-
-<div id="app-5">
-  <p>{{ message }}</p>
-  <button v-on:click="reverseMessage">Reverse Message</button>
-</div>
-
-</form>
+<script>
 var app5 = new Vue({
   el: '#app-5',
   data: {
@@ -18,6 +11,15 @@ var app5 = new Vue({
     }
   }
 })
+
+</script>
+
+<div id="app-5">
+  <p>{{ message }}</p>
+  <button v-on:click="reverseMessage">Reverse Message</button>
+</div>
+
+</form>
 
 
 <form name="contact" method="POST" data-netlify="true">
