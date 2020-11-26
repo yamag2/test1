@@ -11,9 +11,9 @@ export default {
   data: {
   },
   methods:{
-    window: onload = function(){
-      alert('this.$el')
-    }
+    window:onload = function(){
+      alert('this.$el');
+    },
   }
 }
 </script>
