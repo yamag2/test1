@@ -10,10 +10,10 @@
 <script>
 export default {
   name: 'MyComponent',
-methods: {
-  window:onload = function() {  
-   alert('koko');
+  data() {
+    return {
+      message: 'MyComponent!!'
+    }
   },
-}
 }
 </script>
