@@ -15,3 +15,5 @@ The content above `more` is the excerpt, which will be displayed in the posts li
 
 The content below `more` will only be displayed when viewing this post, and will not be displayed in the posts list.
 <NetlifyForm/>
+
+<VueTest/>
