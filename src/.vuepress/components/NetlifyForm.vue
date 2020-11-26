@@ -21,7 +21,6 @@
     <button type="submit">Send</button>
   </p>
 </form>
-</template>
 
 <div id="app-5">
   <p>{{ message }}</p>
@@ -39,3 +38,5 @@ var app5 = new Vue({
     }
   }
 })
+
+</template>
