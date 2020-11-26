@@ -1,19 +1,19 @@
 <template>
-  <div>
-    <input type="text" v-model="message">
-    <p>
-      {{message}}
-    </p>
+  <div id="app">
+    <h1>Hello World</h1>
+    <button v-on:click="showEl">show el</button>
   </div>
 </template>
 
 <script>
 export default {
   name: 'MyComponent',
-  data() {
-    return {
-      message: 'MyComponent!!'
-    }
+  data: {
   },
+  methods:{
+    showEl : function(){
+      console.log(this.$el)
+    }
+  }
 }
 </script>
