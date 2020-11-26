@@ -13,5 +13,5 @@ export default {
   mounted() {
       alert('MyComponent!!');
   },
-}
+} 
 </script>
