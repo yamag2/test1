@@ -12,7 +12,7 @@ export default {
   },
   methods:{
     showEl : function(){
-      console.log(this.$el)
+      alert('this.$el')
     }
   }
 }
