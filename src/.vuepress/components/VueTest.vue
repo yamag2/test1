@@ -7,11 +7,11 @@
 </template>
 
 <script>
-export default {
+export default new Vue({
 	methods: {
 	  window:onload = function() {  
 	   alert('koko');
 	  },
 	}
-}
+})
 </script>
