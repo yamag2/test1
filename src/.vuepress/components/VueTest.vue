@@ -11,7 +11,7 @@ export default {
   data: {
   },
   methods:{
-    window:onload = function(){
+    mounted: function(){
       alert('this.$el');
     },
   }
