@@ -1,5 +1,6 @@
 <template>
   <div>
+    <input type="text" v-model="message">
     <p>
       {{message}}
     </p>
@@ -7,11 +8,12 @@
 </template>
 
 <script>
-export default new Vue({
-	methods: {
-	  window:onload = function() {  
-	   alert('koko');
-	  },
-	}
-})
+export default {
+  name: 'MyComponent',
+methods: {
+  window:onload = function() {  
+   alert('koko');
+  },
+}
+}
 </script>
