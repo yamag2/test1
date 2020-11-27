@@ -6,6 +6,10 @@
 
 <script>
 export default {
+  el: '#app',
+  data: {
+    message: 'Hello VueJS!'
+  },
   mounted: function(){
       alert('MyCComponent!!');
   },
