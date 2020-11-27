@@ -17,7 +17,7 @@ export default {
   },
   mounted () {
     fetch(
-      'https://script.google.com/macros/s/AKfycbzdU4Md20DUSfQFcqJJbUG81LIFGh42WmAQZN_9r3wh3SKSJknB/exec',
+      'https://script.google.com/macros/s/AKfycbwucscUpL0i2YlrbXosLWfAYGA9X6IigIKnNyW1wc1BxraDhQ/exec',
     )
       .then(res => res.json())
       .then(
