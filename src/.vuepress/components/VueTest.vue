@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import Header from '@/components/VueTest.vue'
 export default {
   el: '#appX',
   data: {
