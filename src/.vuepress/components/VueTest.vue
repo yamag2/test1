@@ -6,11 +6,8 @@
 
 <script>
 export default {
-  mounted() {
-	  el: '#app',
-	  data: {
-	    message: 'Hello VueJS!'
-	  }
+  mounted: function(){
+      alert('MyCComponent!!');
   },
 } 
 </script>
