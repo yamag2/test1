@@ -6,7 +6,6 @@
 
 <script>
 export default {
-var app = new Vue({
   el: '#appX',
   data: {
     message: 'Hello VueJS!'
@@ -14,6 +13,5 @@ var app = new Vue({
   mounted: function(){
       alert('MyCComponent!!');
   },
-});
 } 
 </script>
