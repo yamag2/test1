@@ -9,9 +9,8 @@
 
 <script>
 export default {
-  name: 'MyComponent',
   created() {
-      name = 'XXX'
+      alert('MyGomponent!!');
   },
   mounted() {
       alert('MyGomponent!!');
