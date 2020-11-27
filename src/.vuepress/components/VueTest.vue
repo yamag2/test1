@@ -6,12 +6,6 @@
 <script>
 export default {
   el: '#app',
-  data () {
-    return {
-      message: 'Book List',
-      books: null,
-    }
-  },
   mounted() {
       alert('MyGomponent!!');
   },
