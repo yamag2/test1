@@ -5,13 +5,10 @@
 </template>
 
 <script>
-const app = new Vue({
+var app = new Vue({
   el: '#appX',
   data: {
-    message: 'Hello VueJS!'
-  },
-  mounted: function(){
-      alert('MyCComponent!!');
-  },
+    message: 'Hello Vue!'
+  }
 })
 </script>
