@@ -1,13 +1,12 @@
 <template>
-  <div id='appX'>
+  <div>
     <p>{{ message }}</p>
   </div>
 </template>
 
 <script>
-import Header from '@/components/VueTest.vue'
 export default {
-  el: '#appX',
+  name: 'VueTest',
   data: {
     message: 'Hello VueJS!'
   },
