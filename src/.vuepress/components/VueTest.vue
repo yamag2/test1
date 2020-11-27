@@ -9,10 +9,10 @@
 
 <script>
 export default {
-  name: 'MyComponent',
+  name: 'VueTest',
   data() {
     return {
-      message: 'MyComponent!!'
+      message: 'MyCGomponent!!'
     }
   },
 }
