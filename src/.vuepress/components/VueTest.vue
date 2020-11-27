@@ -12,6 +12,7 @@ export default {
   },
   mounted: function(){
       alert('MyCComponent!!');
+      message = 'Hello VueJS!'
   },
 } 
 </script>
