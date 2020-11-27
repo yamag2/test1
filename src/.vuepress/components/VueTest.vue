@@ -1,14 +1,11 @@
 <template>
-  <div>
-    <input type="text" v-model="message">
-    <p>
-      {{message}}
-    </p>
+  <div id="app">
   </div>
 </template>
 
 <script>
 export default {
+  el: '#app',
   mounted() {
       alert('MyGomponent!!');
   },
