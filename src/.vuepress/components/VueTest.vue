@@ -5,14 +5,13 @@
 </template>
 
 <script>
-export default {
+const app = new Vue({
   el: '#appX',
   data: {
     message: 'Hello VueJS!'
   },
   mounted: function(){
       alert('MyCComponent!!');
-      message = 'Hello VueJS!'
   },
-} 
+})
 </script>
