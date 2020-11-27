@@ -1,12 +1,12 @@
 <template>
-  <div id='app'>
+  <div id='appX'>
     <p>{{ message }}</p>
   </div>
 </template>
 
 <script>
 export default {
-  el: '#app',
+  el: '#appX',
   data: {
     message: 'Hello VueJS!'
   },
