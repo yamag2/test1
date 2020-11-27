@@ -12,8 +12,11 @@ export default {
   name: 'VueTest',
   data() {
     return {
-      message: 'MyCGomponent!!'
+      message: null,
     }
   },
+  mounted () {
+	this.message = "result"
+  }
 }
 </script>
