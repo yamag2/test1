@@ -5,9 +5,25 @@
 
 <script>
 export default {
-  
+  data () {
+    return {
+      message: 'Book List',
+      books: null,
+    }
+  },  
   mounted() {
-      alert('MyGomponent!!');
+    fetch(
+      'https://script.google.com/macros/s/AKfycbwucscUpL0i2YlrbXosLWfAYGA9X6IigIKnNyW1wc1BxraDhQ/exec',
+    )
+      .then(res => res.json())
+      .then(
+      result => {
+        this.books = result
+      },
+      error => {
+
+      },
+    );
   },
 } 
 </script>
